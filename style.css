@@ -1,0 +1,57 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.hero-image{
+   
+    background-position:center;
+    background-size: cover;
+    min-height: 110vh;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+}
+.hero-h1{
+    color: rgb(17, 102, 136);
+    font-family: 'Dancing Script', cursive;
+    padding-top: 35px;
+    margin-top:12px;
+ 
+}
+.hero-p p{
+    font-family: 'Dancing Script', cursive;  
+    color: rgb(4, 90, 4);
+    font-size: 22px;
+    padding-right: 40px;
+    padding-left: 30px;
+  
+    
+}
+@media (max-width:490px) {
+    .hero-image{
+        background-position: center;
+    }
+}
+.skills-h1{
+    font-family: 'Caveat', cursive;
+    color: rgb(18, 74, 42);
+    text-shadow: 40px 35px 15px rgb(0,0,0,0.3) ;
+}
+.skill-p{
+    font-size:19px ;
+    font-style: italic;
+}
+.cards-h1{
+    font-weight: bold;
+    font-size: 23px;
+}
+.color-card {
+    color: black;
+}
+.card:hover{
+    box-shadow: 40px 35px 15px rgb(0,0,0,0.5) ;
+    opacity: 1;
+}
+.card{
+    opacity: 0.85;
+}
